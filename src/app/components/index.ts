@@ -6,7 +6,6 @@ import { ParkingAreaSlotsComponent } from './parking-area-slots/parking-area-slo
 import { UserListComponent } from './user-list/user-list.component';
 
 //temp
-import { AdminInfoComponent } from './admin-info/admin-info.component';
 import { AdminMainComponent } from './admin-main/admin-main.component';
 export const Components: any[] = [
     BookParkingComponent,
@@ -14,7 +13,6 @@ export const Components: any[] = [
     FeedbackComponent,
     ParkingAreaComponent,
     ParkingAreaSlotsComponent,
-    AdminInfoComponent,
     AdminMainComponent,
     UserListComponent
 ]
@@ -25,7 +23,6 @@ export {
     FeedbackComponent,
     ParkingAreaComponent,
     ParkingAreaSlotsComponent,
-    AdminInfoComponent,
     AdminMainComponent,
     UserListComponent
 }
