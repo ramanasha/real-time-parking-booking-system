@@ -67,7 +67,7 @@ export class ParkingAreaComponent implements OnInit {
     console.log("onSelect: ", date);
     //this.parkingActions.getSlotForDateAndLocation(this.locationId,this.helperService.convertDateTimeToSampleDate(date));
     
-    if(date.getDate() < (new Date().getDate())){
+    if(date < new Date()){
       this.isPastDateSelected = true;
     }
     else {
@@ -95,7 +95,7 @@ export class ParkingAreaComponent implements OnInit {
   selectSlots(){
     this.isDateTimeSelected=true;
     if(this.isPastDateSelected){
-      alert("Please selected corred date");
+      alert("Please selected correct date");
       return;
     }
     
